@@ -797,6 +797,8 @@ section{
     gap: 35.05px;
     margin: 0 auto;
     margin-top: 56.24px;
+    position: relative;
+    z-index: 999;
 }
 .bonuses .bonuses_wrapper .habits_list .habits{
     /* padding: 24px 40px; */
@@ -1149,6 +1151,8 @@ section{
     align-items: center;
     justify-content: center;
     margin-bottom: 115px;
+    position: relative;
+    z-index: 999;
 }
 @media screen and (min-width: 576px) {
     .begin .activation{
@@ -1499,7 +1503,7 @@ section{
 .winners .winner_wrapper{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
 }
 .winners .winner_wrapper .win{
     display: flex;
@@ -1507,7 +1511,7 @@ section{
     justify-content: center;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .winners .winner_wrapper .win .win_image{
     position: relative;
