@@ -79,8 +79,8 @@
                     </div>
                 </div>
                 <div class="reviews_content" style="position: relative;">
-                    <div data-tab-content class="data" style="position: relative;">
-                        <div class="swiper mySwiper">
+                    <div data-tab-content class="data2" style="position: relative;">
+                        <div class="swiper mySwiper1">
                           <div class="swiper-wrapper">
                             <div class="swiper-slide" style="display: flex;">
                                 <div class="card">
@@ -204,11 +204,11 @@
                           
                           </div>
                         </div>
-                        <img src="./assets/icon/prev.png" class="mobile swiper-button-prev" alt="left">
-                        <img src="./assets/icon/next.png" class="mobile swiper-button-next" alt="right">
+                        <img src="./assets/icon/prev.png"  id="prev" class="mobile swiper-button-prev" alt="left">
+                        <img src="./assets/icon/next.png" id="next" class="mobile swiper-button-next" alt="right">
                       </div>
-                      <img src="./assets/icon/prev.png" class="large swiper-button-prev" alt="left">
-                      <img src="./assets/icon/next.png" class="large swiper-button-next" alt="right">
+                      <img src="./assets/icon/prev.png" id="prev" class="large swiper-button-prev" alt="left">
+                      <img src="./assets/icon/next.png" id="next" class="large swiper-button-next" alt="right">
                 </div>
             </div>
         </section>
@@ -415,8 +415,8 @@
                 </button>
             </div>
             <div class="reviews_content" style="position: relative;">
-                <div data-tab-content class="data" style="position: relative;">
-                    <div class="swiper mySwiper">
+                <div data-tab-content class="data2" style="position: relative;">
+                    <div class="swiper mySwiper2">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide" style="display: flex;">
                             <div class="card">
@@ -540,14 +540,15 @@
                       
                       </div>
                     </div>
-                    <img src="./assets/icon/prev.png" class="mobile swiper-button-prev" alt="left">
-                    <img src="./assets/icon/next.png" class="mobile swiper-button-next" alt="right">
+                    <img src="./assets/icon/prev.png"  id="prev1" class="mobile swiper-button-prev" alt="left">
+                    <img src="./assets/icon/next.png" id="next1" class="mobile swiper-button-next" alt="right">
                   </div>
-                  <img src="./assets/icon/prev.png" class="large swiper-button-prev" alt="left">
-                  <img src="./assets/icon/next.png" class="large swiper-button-next" alt="right">
+                  <img src="./assets/icon/prev.png" id="prev1" class="large swiper-button-prev" alt="left">
+                  <img src="./assets/icon/next.png" id="next1" class="large swiper-button-next" alt="right">
             </div>
         </section>
         <section class="begin">
+            <img src="./assets/icon-on-bg/Group 35882.png" alt="">
             <div class="begin_training">
                 <h3>Let’s Begin Your <span>Training</span></h3>
                 <form>
@@ -568,10 +569,14 @@
                     <button>30 Day Free</button>
                 </div>
                 <div class="card_activation">
-                    <h3>TRY FOR 30 DAYS</h3>
-                    <div class="detail">And receive LUDICROUS LEADERSHIP as an additional gift</div>
+                    <h3>MOST POPULAR</h3>
+                    <div class="detail">
+                        <span>And receive LUDICROUS </span>
+                        <span>LEADERSHIP</span>
+                        <span>as an additional gift</span>
+                    </div>
                     <div class="act">
-                        <span>5$</span>
+                        <span>595$</span>
                         <h3>Activation</h3>
                     </div>
                     <p>No commitment. Cancel anytime during 30 day open access period </p>
@@ -588,13 +593,338 @@
                     <button>30 Day Free</button>
                 </div>
             </div>
+            <div class="payment">
+                <h3>Payment</h3>
+                <form class="payment_container">
+                    <h4>Payment Details</h4>
+                    <div class="payment_choices">
+                        <div class="card_pay card_div">
+                            <div class="card_detail">
+                                <img src="./assets/credit-card 1.svg" alt="">
+                                <h3>Card</h3>
+
+                            </div>
+                        </div>
+                        <div class="card_pay card_div">
+                            <div class="card_detail">
+                                <img src="./assets/image 30.png" alt="">
+                                <h3>Klarna</h3>
+                            </div>
+                        </div>
+                        <div class="card_pay card_div">
+                            <div class="card_detail">
+                                <img src="./assets/Rectangle 656.png" alt="">
+                                <h3>iDEAL</h3>
+                            </div>
+                        </div>
+                        <div class="card_pay">
+                            <img src="./assets/Ellipse 779.svg" alt="">
+                            <img src="./assets/Ellipse 779.svg" alt="">
+                            <img src="./assets/Ellipse 779.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="card_number">
+                        <label>
+                            <h3 class="card_title">
+                                Card number
+                            </h3>
+                            <div class="input">
+                                <input type="text" placeholder="4512 4584 1423 4785">
+                                <div class="card_group">
+                                    <img src="./assets/bank/VISA.png" alt="">
+                                    <img src="./assets/bank/Mastercard.png" alt="">
+                                    <img src="./assets/bank/AMEX.png" alt="">
+                                    <img src="./assets/bank/Discover.png" alt="">
+                                </div>
+                            </div>
+                        </label>
+                        <div class="card_row">
+                            <label>
+                                <h3 class="card_title">
+                                    Expiration Date
+                                </h3>
+                                <div class="input">
+                                    <input type="text" placeholder="MM / YY">
+                                </div>
+                            </label>
+                            <label>
+                                <h3 class="card_title">
+                                    Security Code
+                                </h3>
+                                <div class="input">
+                                    <input type="text" placeholder="CVV">
+                                    <div class="card_group">
+                                        <img src="./assets/bank/credit card.svg" alt="">
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <button>PAY NOW</button>
+                </form>
+            </div>
+        </section>
+        <section class="winners">
+            <h3>Join an Elite <span>Community</span> of Winners</h3>
+            <div class="winner_wrapper">
+                <div class="win">
+                    <div class="win_image">
+                        <img src="./assets/winner/winner-rectangle.png" alt="">
+                        <img class="play" src="./assets/winner/orangeplay.png" alt="">
+                    </div>
+                    <div class="win_content">
+                        <div class="win_header">
+                            <img src="./assets/winner/winner-circle.png" alt="">
+                            <div class="header_content">
+                                <h3>Sam Purcell</h3>
+                                <span>Grade 11 Student</span>
+                            </div>
+                        </div>
+                        <div class="star_grp">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-half.png" alt="">
+                        </div>
+                        <div class="p">
+                            <p>"Grizzly Elite made me realize that I had this huge chasm of untapped potential. It was not just a minor improvement but a complete change of how I thought and performed. Grizzly Elite taught me how to differentiate what actually gives me the best results to succeed in my future.</p>
+                            <p>As an end result, I overachieved 5,000 times my initial goal with Grizzly Elite."</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="win">
+                    <div class="win_image">
+                        <img src="./assets/winner/Rectangle 659.png" alt="">
+                        <img class="play" src="./assets/winner/redplay.png" alt="">
+                    </div>
+                    <div class="win_content">
+                        <div class="win_header">
+                            <img src="./assets/winner/circle_face.png" alt="">
+                            <div class="header_content">
+                                <h3>Sam Purcell</h3>
+                                <span>Grade 11 Student</span>
+                            </div>
+                        </div>
+                        <div class="star_grp">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-filled.png" alt="">
+                            <img src="./assets/star_icon_orange/dashicons_star-half.png" alt="">
+                        </div>
+                        <div class="p">
+                            <p>"Grizzly Elite made me realize that I had this huge chasm of untapped potential. It was not just a minor improvement but a complete change of how I thought and performed. Grizzly Elite taught me how to differentiate what actually gives me the best results to succeed in my future.</p>
+                            <p>As an end result, I overachieved 5,000 times my initial goal with Grizzly Elite."</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second_quote">
+                <div class="people">
+                    <img src="./assets/winner/circle1.png" alt="">
+                    <div class="people_quote">
+                        <p>"Joaquin is an inspiration and has helped me with my studies. I feel more productive overall."</p>
+                        <p>Anderson Putra Irawan - Grade 11 Student</p>
+                    </div>
+                </div>
+                <div class="people">
+                    <img src="./assets/winner/circle2.png" alt="">
+                    <div class="people_quote">
+                        <p>"Grizzly Elite makes great content which helped me a lot in studying. Would absolutely recommend Joaquin as he gives great useful advice."</p>
+                        <p>Shunsuke Tsutsui - Grade 10 Student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quote_3">
+                <div class="head_title">
+                    <h3>Gloria Mariwa</h3>
+                    <span>Grade 11 Student</span>
+                </div>
+                <p>"Joaquin really helped me a lot! My goal was to succeed in the WSC academic competition. In my first year of the competition, I left the regional round ashamed of barely qualifying for the global rounds. This was before I found Joaquin's [productivity] training and resources.</p>
+                <p>The next year I took part in the competition once again and, using Joaquin's resources and having his support, I managed to get 10 gold medals [10X results]: holding the record of most medals received during the competition in my school. I remember leaving the competition with tons of pride after the positive change I made in a year's time with help from Joaquin! Till today I'm proud of my achievement and I thank Joaquin for all his help!"</p>
+            </div>
+            <div class="counselors">
+                <h3>What other <span>Counselors</span> Say about this Opportunity</h3>
+                <div class="counselors_wrapper">
+                    <img src="./assets/councelor/Rectangle 660.png" alt="">
+                    <div class="coun_content">
+                        <h3>Meet Bibi</h3>
+                        <p>At my request, Joaquin Revello, hosted a virtual presentation for my current students in January of 2022. He is a wonderful results-oriented public speaker and hearing his tips and personal experiences, which eventually led to his success in gaining admission to his top choice university, were eye-opening for my students. These included novel frameworks, strategies, and concepts.</p>
+                        <p>In any given year, I work with a handful of students targeting elite institutions, including Ivy League universities. While ambitious, I still felt some were not fully living up to their potential. After Joaquin’s presentation, the change in the mindset and attitude of the students who attended his event was evident in their progress. The feedback I received from parents and students has been extraordinarily positive. The difference he has made is evidence of his genuine interest in the power of productivity and how modifications in attitude and work ethic can change lives. I wholeheartedly endorse Joaquin, knowing the value that he brings to the young people he sets out to inspire.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="reviews_content third" style="position: relative;">
+                <div data-tab-content class="data2" style="position: relative;">
+                    <div class="swiper mySwiper3">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="display: flex;">
+                            <div class="card">
+                                <img src="./assets/reviews/Ellipse 9.png" alt="">
+                                <div class="card_content">
+                                    <h3 class="name">Wade Warren</h3>
+                                    <span>@Wade Warren . 2 days ago</span>
+                                    <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                    <div class="grp_star">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                        <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                    <img src="./assets/icon/prev.png"  id="prev2" class="mobile swiper-button-prev" alt="left">
+                    <img src="./assets/icon/next.png" id="next2" class="mobile swiper-button-next" alt="right">
+                  </div>
+                  <img src="./assets/icon/prev.png" id="prev2" class="large swiper-button-prev" alt="left">
+                  <img src="./assets/icon/next.png" id="next2" class="large swiper-button-next" alt="right">
+            </div>
+            <div class="thank_you">
+                <div class="title_ty">
+                    <h3>Your Student's Parents Will</h3>
+                    <h3>Thank You!</h3>
+                </div>
+                <div class="video">
+                    <div class="vid_image">
+                        <img src="./assets/councelor/Rectangle 658.png" alt="">
+                        <img class="vid_play" src="./assets/winner/redplay.png" alt="">
+                    </div>
+                    <div class="vid_content">
+                        <img src="/assets/icon/bxs_quote-left.png" alt="">
+                        <h3>There’s now a fire in them. Their eyes are sparkling.</h3>
+                        <p>My name is Mye, and I am a mother of four. My kids are now happy. Like truly joyful. As high schoolers! You don’t see that anywhere. They just transformed into different human beings in just a few weeks. My husband even noticed the change and wondered what had happened to them. The Grizzly Elite program has, undoubtedly, been the best decision we’ve ever made. I now go to sleep in peace as I know they are in good hands.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="faq">
+            <div class="access_wrapper">
+                <h3>30 Day Access To The OFA Challenge <span>
+                    Facebook Group
+                </span> </h3>
+                <div class="access">
+                    <div class="acc_image">
+                        <img src="./assets/councelor/white.png" alt="">
+                        <img class="acc_play" src="./assets/winner/redplay.png" alt="">
+                    </div>
+                    <div class="acc_content">
+                        <p>Tincidunt lectus amet scelerisque sollicitudin duis. Metus vel semper risus volutpat dolor turpis. Amet tortor arcu duis nec scelerisque enim vitae vitae. Porttitor risus enim malesuada.</p>
+                        <div class="icon">
+                            <img src="./assets/icon/carbon_condition-point.png" alt="">
+                            <p>A pellentesque ipsum mi a volutpat felis. Libero ultricies fringilla ut leo risus non morbi. Ridiculus pretium magna.</p>
+                        </div>
+                        <div class="icon">
+                            <img src="./assets/icon/carbon_condition-point.png" alt="">
+                            <p>A pellentesque ipsum mi a volutpat felis. Libero ultricies fringilla ut leo risus non morbi. Ridiculus pretium magna.</p>
+                        </div>
+                        <p>Tincidunt lectus amet scelerisque sollicitudin duis. Metus vel semper risus volutpat dolor turpis. Amet tortor arcu duis nec scelerisque enim vitae vitae. Porttitor risus enim malesuada.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
-              var swiper = new Swiper(".mySwiper", {
+   var swiper1 = new Swiper(".mySwiper1", {
         slidesPerView: 1,
         spaceBetween: 20,
         slidesPerGroup: 1,
@@ -605,9 +935,45 @@
           clickable: true,
         },
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: "#next.swiper-button-next",
+          prevEl: "#prev.swiper-button-prev",
         },
+        debugger: true,
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+          },
+          // when window width is <= 499px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 2,
+          },
+          // when window width is <= 999px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            slidesPerGroup: 3,
+          },
+        },
+      });        
+   var swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        // loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: "#next1.swiper-button-next",
+          prevEl: "#prev1.swiper-button-prev",
+        },
+        debugger: true,
         breakpoints: {
           576: {
             slidesPerView: 1,
@@ -628,6 +994,52 @@
           },
         },
       });
+      var swiper3 = new Swiper(".mySwiper3", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        // loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: "#next2.swiper-button-next",
+          prevEl: "#prev2.swiper-button-prev",
+        },
+        debugger: true,
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+          },
+          // when window width is <= 499px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 2,
+          },
+          // when window width is <= 999px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            slidesPerGroup: 3,
+          },
+        },
+      });
+      const card_pay = document.querySelectorAll('.card_div')
+
+      card_pay.forEach(card => {
+        card.addEventListener('click', () => {
+            card_pay.forEach(i => {
+                i.classList.remove('active')
+            })
+            card.classList.add('active')
+        })
+      })
+
     </script>
 </body>
 </html>
