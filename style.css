@@ -42,7 +42,10 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease;
 }
+
+
 .main .landing_page .landing_wrapper{
     width: 100%;
     max-width: 851.734px;
@@ -51,6 +54,14 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 67.5px;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.main .landing_page.fade .landing_wrapper{
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(0,-70px);
 }
 .main .landing_page .landing_wrapper h2{
     color: #FFF;
@@ -59,7 +70,9 @@ html, body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
 }
+
 .main .landing_page .landing_wrapper button{
     height: 60px;
     padding: 16px 31px;
