@@ -31,13 +31,13 @@
                 <div class="time_wrapper">
                     <img src="./assets/logo/Vector.png" alt="">
                     <div class="time">
-                        <span>12d</span>
+                        <span class="day"></span>
                         <span>:</span>
-                        <span>12h</span>
+                        <span class="hour"></span>
                         <span>:</span>
-                        <span>43min</span>
+                        <span class="minute"></span>
                         <span>:</span>
-                        <span>05s</span>
+                        <span class="second"></span>
                     </div>
                 </div>
             </nav>
@@ -87,15 +87,15 @@
                                     <img src="./assets/reviews/Ellipse 9.png" alt="">
                                     <div class="card_content">
                                         <h3 class="name">Wade Warren</h3>
-                                        <span>@Wade Warren . 2 days ago</span>
-                                        <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
-                                        <div class="grp_star">
-                                            <img src="./assets/reviews/dashicons_star-filled.png" alt="">
-                                            <img src="./assets/reviews/dashicons_star-filled.png" alt="">
-                                            <img src="./assets/reviews/dashicons_star-filled.png" alt="">
-                                            <img src="./assets/reviews/dashicons_star-filled.png" alt="">
-                                            <img src="./assets/reviews/dashicons_star-half.png" alt="">
-                                        </div>
+                                            <span>@Wade Warren . 2 days ago</span>
+                                            <p>Sociis amet etiam elementum amet enim ac tristique a. Nullam tempus adipiscing enim, mauris lacus tincidunt eget elit. Id ultrices.</p>
+                                            <div class="grp_star">
+                                                <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                                <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                                <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                                <img src="./assets/reviews/dashicons_star-filled.png" alt="">
+                                                <img src="./assets/reviews/dashicons_star-half.png" alt="">
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -321,8 +321,6 @@
             </div>
         </section>
         <section class="bonuses">
-
-            <!-- <img class="icon1" src="./assets/icon-on-bg/Group 35882.png alt=""> -->
             <div class="bonuses_wrapper">
                 
                 <h3>Counselor Exclusive <span>Bonuses</span></h3>
@@ -1033,155 +1031,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-   var swiper1 = new Swiper(".mySwiper1", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        slidesPerGroup: 1,
-        // loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: "#next.swiper-button-next",
-          prevEl: "#prev.swiper-button-prev",
-        },
-        debugger: true,
-        breakpoints: {
-          576: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            slidesPerGroup: 1,
-          },
-          // when window width is <= 499px
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 2,
-          },
-          // when window width is <= 999px
-          992: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            slidesPerGroup: 3,
-          },
-        },
-      });        
-   var swiper2 = new Swiper(".mySwiper2", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        slidesPerGroup: 1,
-        // loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: "#next1.swiper-button-next",
-          prevEl: "#prev1.swiper-button-prev",
-        },
-        debugger: true,
-        breakpoints: {
-          576: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            slidesPerGroup: 1,
-          },
-          // when window width is <= 499px
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 2,
-          },
-          // when window width is <= 999px
-          992: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            slidesPerGroup: 3,
-          },
-        },
-      });
-      var swiper3 = new Swiper(".mySwiper3", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        slidesPerGroup: 1,
-        // loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: "#next2.swiper-button-next",
-          prevEl: "#prev2.swiper-button-prev",
-        },
-        debugger: true,
-        breakpoints: {
-          576: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            slidesPerGroup: 1,
-          },
-          // when window width is <= 499px
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 2,
-          },
-          // when window width is <= 999px
-          992: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            slidesPerGroup: 3,
-          },
-        },
-      });
-      const card_pay = document.querySelectorAll('.card_div')
-
-      card_pay.forEach(card => {
-        card.addEventListener('click', () => {
-            card_pay.forEach(i => {
-                i.classList.remove('active')
-            })
-            card.classList.add('active')
-        })
-      })
-
-      const accordion_btn = document.querySelectorAll('.accordion_btn')
-      const accordion = document.querySelectorAll('.accordion')
-
-      accordion_btn.forEach(acc => {
-        acc.addEventListener('click', (e) => {
-            var item = e.target.parentElement.querySelector('.accordion_body')
-            item.classList.toggle('active')
-            if(item.classList.contains('active')){
-                item.style.height = `${item.scrollHeight}px`
-            }else{
-                item.style.height = "0px"
-            }
-        })
-      })
-
-      const hide = document.querySelectorAll('.hide')
-      hide.forEach(h => {
-        h.addEventListener('click', (e) => {
-            var itemhide = e.target.parentElement.parentElement.parentElement
-            itemhide.classList.toggle('active')
-            if(itemhide.classList.contains('active')){
-                itemhide.style.height = `${itemhide.scrollHeight}px`
-            }else{
-                itemhide.style.height = "0px"
-            }
-        })
-      })
-
-    window.addEventListener("scroll", function () {
-        var landing = document.querySelector(".landing_page");
-        landing.classList.toggle("fade", window.scrollY > 120);
-    });
-    </script>
+    <script src="./app.js"></script>
 </body>
 </html>

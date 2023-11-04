@@ -1365,8 +1365,8 @@ section{
 
 }
 .payment_container .payment_choices .card_pay img{
-    height: 32px;
-    width: 32px;
+    /* height: 32px;
+    width: 32px; */
 }
 .payment_container .payment_choices .card_pay h3{
     color: #000;
